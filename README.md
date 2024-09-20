@@ -1,6 +1,6 @@
 # Inventory Management System (IMS) - Monorepo
 
-<!-- ![Architecture Diagram](path/to/architecture-image.png) -->
+![Architecture Diagram](ims-architecture.jpg)
 
 ## 🏗️ About the Project
 
@@ -13,7 +13,8 @@ This project is a **monorepo** containing all microservices and frontend related
 - **Minimalistic Design**: The UI design is kept simple for the initial phase, with little emphasis on aesthetics.
 - **Inventory Management**: Users can maintain and update their product inventory and customer data.
 - **Customer and Transaction Management**: Users can add customers and maintain transactions.
-- **Data Consistency**: Users cannot disable products or customers involved in transactions, ensuring data integrity. Transactions are atomic, meaning they are either fully completed or not at all, ensuring data consistency.
+- **Data Consistency**: Users cannot disable products or customers involved in transactions, ensuring data integrity.
+- **Atomic Transactions**: Transactions are atomic, meaning they are either fully completed or not at all, ensuring data consistency.
 - **Transaction-Based Updates**: Product quantity and average buy rate are updated only through transactions.
 - **Advanced Search Filters**: Users can search transactions based on filters like:
   - All
@@ -32,6 +33,7 @@ This project is a **monorepo** containing all microservices and frontend related
 - **Containerization**: Docker
 - **Image Repository**: AWS ECR (Elastic Container Repository)
 - **Container Orchestration**: AWS ECS (Elastic Container Service)
+- **Environment Variables Management**: AWS S3 for .env file and AWS Secrets Manager for storing credentials
 - **API Composition**: AWS Lambda Functions
 - **API Gateway**: AWS API Gateway
 
@@ -44,6 +46,8 @@ This system is built on a microservices architecture, with backend services hand
    - **Product Service**: Handles all CRUD operations related to products in the inventory.
    - **Customer Service**: Manages customer data and allows user operations like adding, deleting or viewing customers.
    - **Transaction Service**: Handles transaction records. Updates to product quantity and average buy rate can only happen through a transaction to maintain data consistency.
+
+   Each microservice is containerized and run as a service on ECS and uses environment variables and .env files from **AWS S3** and **AWS Secrets Manager**.
 
 2. **Databases**:
    Each microservice has its own dedicated database in **AWS RDS (PostgreSQL)**. This ensures separation of concerns and scalability.
