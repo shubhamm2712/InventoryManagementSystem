@@ -1,12 +1,12 @@
 # Inventory Management System (IMS) - Monorepo
 
-![Architecture Diagram](ims-architecture.jpg)
-
 ## 🏗️ About the Project
 
 The system follows a **microservices-based, backend-heavy, frontend-friendly architecture**, designed to maintain a scalable and reliable inventory and transaction system. The **main goal** of this project was to learn and apply various industry-standard technologies like microservices, cloud services, Auth0 security, containerization, and cloud deployment.
 
 This project is a **monorepo** containing all microservices and frontend related to the Inventory Management System (IMS). The development of individual services was done in separate repositories, which are now linked as submodules in this monorepo.
+
+![Architecture Diagram](ims-architecture.jpg)
 
 ### Features
 
