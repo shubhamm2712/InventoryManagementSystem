@@ -10,12 +10,12 @@ This project is a **monorepo** containing all microservices and frontend related
 
 ### Features
 
-- **Minimalistic Design**: The UI design is kept simple for the initial phase, with little emphasis on aesthetics.
 - **Inventory Management**: Users can maintain and update their product inventory and customer data.
 - **Customer and Transaction Management**: Users can add customers and maintain transactions.
 - **Data Consistency**: Users cannot disable products or customers involved in transactions, ensuring data integrity.
 - **Atomic Transactions**: Transactions are atomic, meaning they are either fully completed or not at all, ensuring data consistency.
 - **Transaction-Based Updates**: Product quantity and average buy rate are updated only through transactions.
+- **Minimalistic Design**: The UI design is kept simple for the initial phase, with little emphasis on aesthetics.
 - **Advanced Search Filters**: Users can search transactions based on filters like:
   - All
   - Buy
