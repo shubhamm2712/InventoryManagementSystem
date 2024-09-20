@@ -1,0 +1,15 @@
+[submodule "ims_frontend"]
+	path = ims_frontend
+	url = https://github.com/shubhamm2712/ims_frontend.git
+[submodule "ims_lambda"]
+	path = ims_lambda
+	url = https://github.com/shubhamm2712/ims_lambda.git
+[submodule "ims_product"]
+	path = ims_product
+	url = https://github.com/shubhamm2712/ims_product.git
+[submodule "ims_customer"]
+	path = ims_customer
+	url = https://github.com/shubhamm2712/ims_customer.git
+[submodule "ims_transaction"]
+	path = ims_transaction
+	url = https://github.com/shubhamm2712/ims_transaction.git
