@@ -10,7 +10,7 @@ This project is a **monorepo** containing all microservices and frontend related
 
 ### Features
 
-- **Inventory Management**: Users can maintain and update their product inventory and customer data.
+- **Inventory Management**: Users can maintain and update their product inventory.
 - **Customer and Transaction Management**: Users can add customers and maintain transactions.
 - **Data Consistency**: Users cannot disable products or customers involved in transactions, ensuring data integrity.
 - **Atomic Transactions**: Transactions are atomic, meaning they are either fully completed or not at all, ensuring data consistency.
@@ -36,6 +36,13 @@ This project is a **monorepo** containing all microservices and frontend related
 - **Environment Variables Management**: AWS S3 for .env file and AWS Secrets Manager for storing credentials
 - **API Composition**: AWS Lambda Functions
 - **API Gateway**: AWS API Gateway
+
+The project adheres to industry-standard coding practices, including:
+
+- Use of type annotations throughout the codebase for better readability and type safety.
+- Validators are used to parse the input into respective classes and validate the content coming in the requests
+- Modular programming and recommended folder structure to reuse the components as much as possible.
+- Separation of configuration (e.g., authentication and database credentials) using environment variables for security and flexibility.
 
 ## 🚀 Project Architecture
 
