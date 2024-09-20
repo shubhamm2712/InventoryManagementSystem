@@ -1,5 +1,7 @@
 # Inventory Management System (IMS) - Monorepo
 
+[Live link](https://main.d1uzi70v0t0f8v.amplifyapp.com/) of the project.
+
 ## 🏗️ About the Project
 
 The system follows a **microservices-based, backend-heavy, frontend-friendly architecture**, designed to maintain a scalable and reliable inventory and transaction system. The **main goal** of this project was to learn and apply various industry-standard technologies like microservices, cloud services, Auth0 security, containerization, and cloud deployment.
