@@ -2,6 +2,7 @@
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fmain.d1uzi70v0t0f8v.amplifyapp.com%2F)
 ![GitHub License](https://img.shields.io/github/license/shubhamm2712/InventoryManagementSystem)
+![GitHub repo size](https://img.shields.io/github/repo-size/shubhamm2712/InventoryManagementSystem)
 ![GitHub forks](https://img.shields.io/github/forks/shubhamm2712/InventoryManagementSystem)
 ![GitHub last commit](https://img.shields.io/github/last-commit/shubhamm2712/InventoryManagementSystem)
 
