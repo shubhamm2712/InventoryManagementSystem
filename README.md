@@ -1,5 +1,10 @@
 # Inventory Management System (IMS) - Monorepo
 
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fmain.d1uzi70v0t0f8v.amplifyapp.com%2F)
+![GitHub License](https://img.shields.io/github/license/shubhamm2712/InventoryManagementSystem)
+![GitHub forks](https://img.shields.io/github/forks/shubhamm2712/InventoryManagementSystem)
+![GitHub last commit](https://img.shields.io/github/last-commit/shubhamm2712/InventoryManagementSystem)
+
 <a href="https://main.d1uzi70v0t0f8v.amplifyapp.com/" target="_blank">Live link</a> of the project.
 
 ## 🏗️ About the Project
