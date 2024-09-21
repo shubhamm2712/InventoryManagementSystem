@@ -45,6 +45,8 @@ This project is a **monorepo** containing all microservices and frontend related
 - **API Composition**: AWS Lambda Functions
 - **API Gateway**: AWS API Gateway
 
+[![My Skills](https://skillicons.dev/icons?i=aws,fastapi,postgres,react,docker,)](https://skillicons.dev)
+
 The project adheres to industry-standard coding practices, including:
 
 - Use of type annotations throughout the codebase for better readability and type safety.
