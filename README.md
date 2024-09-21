@@ -1,6 +1,6 @@
 # Inventory Management System (IMS) - Monorepo
 
-[Live link](https://main.d1uzi70v0t0f8v.amplifyapp.com/) of the project.
+<a href="https://main.d1uzi70v0t0f8v.amplifyapp.com/" target="_blank">Live link</a> of the project.
 
 ## 🏗️ About the Project
 
